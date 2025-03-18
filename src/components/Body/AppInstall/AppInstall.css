@@ -1,0 +1,45 @@
+
+#installapp{
+    background-color:rgb(240,240,245);
+    border-radius: 8px;
+    padding: 6px;
+    
+  }
+  
+  .title {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: lightslategray;
+    text-align: center;
+  }
+ .links{
+    margin-left: 300px;
+ }
+  .links a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .links img {
+    width: 150px;
+    height: auto;
+  }
+  .gpbtn , .iosbtn{
+    border-radius: 4px;
+    background-color: lightgray;
+    border: none;
+  }
+  .gpbtn:hover, .iosbtn:hover {
+    background-color: #d5d5d5; 
+    transform: scale(1.05);
+}
+
+  @media  screen and (max-width:500px) {
+    .links{
+        display: none;
+    }
+    
+     
+}
+

@@ -1,0 +1,70 @@
+.nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    gap: 30px;  
+}
+
+.nav-items > li,button{
+    list-style-type: none; 
+    margin-right: 50px;
+    cursor: pointer;
+   
+}
+.nav-items > li > a:hover {
+ color:rgb(255, 115, 0);
+}
+
+.nav-items li.recipes{
+    
+    margin-right: 20px;
+}
+.logos{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+.logos:hover{
+    color: darkorange;
+}
+.loginbtn{
+    background-color:  #28A745 ;
+   border-radius: 10px;
+   border: none;
+   /* border: 2px solid black; */
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+
+@media  screen and (max-width:500px) {
+    .sc{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    .search{
+        display: none;
+    }
+}
+@media screen and (max-width:700px) {
+    .offer{
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .help{
+        display: none;
+    }
+}
+@media screen and (max-width:900px) {
+    .loginbtn{
+        display: none;
+    }
+}
+@media screen and (max-width:1000px) {
+    .cart{
+        display: none;
+    }
+}

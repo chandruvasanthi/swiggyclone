@@ -1,0 +1,123 @@
+.hero-section {
+    height: 100vh; 
+    overflow: hidden; 
+    position: relative; 
+    margin-top: 2px;
+}
+
+.maincarousel {
+    position: relative;
+    height: 100%; 
+    
+}
+
+.milkimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10; 
+    width: 100%;
+   
+}
+
+.imagecontainer {
+   
+    position: relative;
+    height: 100%;
+   
+}
+
+
+#slideimgs{
+    padding: 0;
+    margin: 0;
+}
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    transition: opacity 1s ease; 
+}
+
+.carousel-item.active {
+    opacity: 1; 
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 230px;
+    left: 480px;
+    color: white;
+    text-align: left;
+    z-index: 15; 
+    font-size: 40px;
+}
+
+.fade-in {
+    animation: blink 1s forwards, fadeIn 1s forwards; 
+}
+
+.fade-out {
+    animation: blink 1s forwards, fadeOut 1s forwards; 
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0; 
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.btnvop {
+    position: absolute;
+    top: 350px; 
+    left: 550px; 
+    z-index: 10;
+    width: 170px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold; 
+    cursor: pointer; 
+}
+
+#mcimg3 {
+    height: 500px;
+}
+
+#cia {
+    margin: 0;
+    padding: 0;
+}
+
+#mctext {
+    margin-bottom: 150px;
+}
+
+#carouselExampleIndicators .carousel-inner img {
+    object-fit: cover; 
+}

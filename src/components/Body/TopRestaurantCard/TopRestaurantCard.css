@@ -1,0 +1,92 @@
+
+.card{
+
+    /* margin-left: 30px; */
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;   
+    width: 280px;
+    
+
+/* 
+    gap: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none; */
+}
+.card-container{
+    /* border: 1px solid black ;
+    border-radius: 4px;
+    height: 490px;
+    width: 300px; */
+    /* height: 330px; */
+    height: 360px;
+    width: 280px;
+    display: grid;
+    transition: 0.05s;
+    cursor: pointer;
+    grid-auto-flow: row;
+    padding: 10px;
+    text-align: center;
+
+    /* margin-top: 10px; */
+ 
+    /* margin-left: 10px; */
+    margin-top: 5px;
+    border-radius: 4px; 
+}
+/* .ctext{
+  
+    text-align: left;
+} */
+.topres-logo{
+    object-fit: cover;
+    /* max-height: 170px; 
+    max-width: 220px; */
+    width: 90%;
+    height: 170px;  
+    border-radius: 8px;
+    
+   /* margin-left: 12px; */
+}
+
+.h2{
+    margin-left: 50px;
+    font-size: 25px;
+    font-family:  sans-serif;
+    padding: 16px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+
+.cuisines {
+    font-style: italic;
+}
+
+.carousel-item {
+    padding: 0 15px; 
+    text-decoration: none;
+}
+
+#prev{
+   margin-top: 125px;
+   margin-left: 30px;
+   width: 30px;
+}
+#next{
+    margin-top: 125px;
+    margin-right: 5px;
+    width: 30px;
+}
+.avgstar {
+    color: green;
+   }
+    
+.c-link{
+    text-decoration: none;
+}

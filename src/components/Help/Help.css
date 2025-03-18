@@ -1,0 +1,9 @@
+.helpcontent{
+    height: auto;
+    width: auto;
+    /* background-color: azure; */
+    background-color: #f0f0f0; 
+    /* background-color: rgb(255,82,0); */
+    margin-top: 10px;
+    padding: 16px;
+}

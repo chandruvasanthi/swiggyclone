@@ -1,0 +1,27 @@
+
+#textwtof{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.hwtof{
+    font-size: 50px;
+}
+.pwtof{
+    font-size: 20px;
+}
+.ofcon{
+    position: relative;
+   margin-top: 2px;
+   bottom: 148px;
+}
+
+
+
+

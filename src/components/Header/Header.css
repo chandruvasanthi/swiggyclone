@@ -1,0 +1,19 @@
+.header{
+    height: 80px;
+    display: flex;
+    /* background-color: #FFE5CF; */
+    /* background-color:#FF9F66; */
+    background-color: rgb(240,240,245);
+    justify-content: space-between;
+    align-items: center;
+}
+.other{
+    text-decoration: underline;
+    font-weight: bold;
+    position: absolute;
+    left: 130px;
+}
+.other i{
+    color: red;
+    margin-left: 5px;
+}

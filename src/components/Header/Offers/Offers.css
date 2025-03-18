@@ -1,0 +1,12 @@
+#Offerscard{
+    width: auto;
+    margin-top: 10px;
+}
+.contents{
+    height: auto;
+    width: 900px;
+    margin-left: 200px;
+    /* background-color: azure; */
+    background-color: #f0f0f0; 
+    padding: 16px;
+}

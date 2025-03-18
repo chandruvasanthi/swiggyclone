@@ -1,0 +1,120 @@
+.restaurant-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .accordion-toggle {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-toggle:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .accordion-title {
+    font-weight: bold;
+  }
+  
+  .accordion-icon {
+    font-size: 18px;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+
+  .accordion-content.open {
+    max-height: auto; 
+    opacity: 1;
+  }
+  
+  .accordion-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+  .accordion-content li {
+    padding: 10px;
+ 
+  }
+.con{
+display: flex;
+justify-content: space-between;
+justify-self: flex-end;
+border-bottom:1px solid #ddd ;
+
+}
+.img{
+
+justify-content: end;
+align-self: center;
+justify-self: flex-end;
+}
+  .rec-content {
+   
+    align-items: center; 
+   justify-content: space-between;
+  }
+  
+  .recommended-logo {
+    width: 70px; 
+    height: 60px; 
+    border-radius: 4px;
+    object-fit: cover; 
+  }
+  /* .card  {
+    box-sizing: border-box;
+    box-shadow: palegreen;
+  } */
+  #toplist {
+    box-shadow: 0 6px 10px lightgrey; 
+    transition: box-shadow 0.3s ease-in-out;
+    width: 700px;
+  }
+  
+  .morebtn{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(252,252,230);
+    align-items: center;
+    justify-content: center;
+  } 
+ .addbtn{
+  color: green;
+  border-radius: 4px;
+  border: none;
+ }
+ .avgstar {
+  color: green;
+ }
+  
+@media screen and (max-width:575px){
+  #toplist {
+width: 250px;
+
+  }
+  .restaurant-list{
+    padding: 0;
+  }
+}
+/* @media screen and (max-width:768px){
+  #toplist {
+width: 600px;
+  }
+} */

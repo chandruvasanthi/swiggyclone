@@ -1,0 +1,145 @@
+.body{
+    background-color: #f5f5f5;
+    /* background-color: rgb(255,82,0); */
+}
+.h2{
+    margin-left: 50px;
+    font-size: 25px;
+    font-family:  sans-serif;
+    padding: 16px;
+}
+
+.insidecontent{
+/* display: flex; */
+    display:grid;
+    /* grid-template-columns: repeat(4,1fr); */
+    
+    align-content: end;
+    text-align: left;
+    flex-wrap: wrap;
+     
+} 
+.topcardcontent{
+    display:flex;
+    align-content: end;
+    text-align: left;
+    flex-wrap: nowrap;
+    text-decoration: none;
+/* 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    */
+}
+
+
+.filter{
+    padding: 8px;
+    font-size: large;  
+    justify-content: center;
+    display: flex;
+}
+.filter button {
+    padding: 10px 20px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+     transition:  transform 0.3s ease;
+   
+}
+.filter button:hover{
+  
+    transform: scale(1.1);
+}
+.search-content {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+   
+}
+.search-content input{
+    font-size: 16px;
+}
+
+.search-box{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.search-box:focus {
+    border-color: #009688;
+    outline: none;
+}
+
+
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  
+}
+
+.search-button:hover {
+    transform: scale(1.1);
+  /* background-color: rgb(239, 120, 8); */
+}
+.link{
+    text-decoration: none;
+}
+
+.insidecontent a:hover {
+    transform: scale(1.001);
+}
+ 
+
+.insidecontent {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media screen and (max-width: 992px) {
+    .insidecontent {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .insidecontent {
+        grid-template-columns:repeat(2, 1fr); 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .insidecontent {
+        grid-template-columns: 1fr; 
+    }
+
+
+    .search-box{
+      margin-left: 25px;
+      width: 200px;
+    }
+}
+
+
+

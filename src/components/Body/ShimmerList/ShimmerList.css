@@ -1,0 +1,14 @@
+.topcard{
+    width: 700px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-left: 250px;
+    margin-top: 55px;
+}
+.list1,.list2,.list3,.list4,.list5,.list6,.list7,.list8,.list9,.list10{
+    width: 750px;
+    height: 40px;
+    background-color: #f0f0f0;
+    margin-left: 230px;
+    margin-top: 15px;
+}

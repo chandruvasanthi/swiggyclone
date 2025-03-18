@@ -1,0 +1,44 @@
+ .h2{
+    margin-left: 50px;
+    font-size: 25px;
+    font-family:  sans-serif;
+    color: black;
+}  
+ 
+ /* .ul{
+display: flex;
+gap: 120px;
+margin-top: 50px;
+list-style-type: none;
+font-size: 20px;
+}  */
+
+.carousel-indicators{
+    margin-bottom: 1px;
+}
+
+/* #demo{
+    left: 10px;
+} */
+.carousel-indicators >button{
+    color: darkorange;
+}
+
+.carousel-control-prev{
+    margin-top: 65px;
+    height: 30px;
+    width: 30px;
+   
+ }
+ .carousel-control-next{
+     margin-top: 65px;
+     margin-right: 15px;
+     height: 30px;
+     width: 30px;
+ }
+
+ /* @media  screen and (max-width:500px) {
+    .carousel-control-prev ,  .carousel-control-next{
+     position:relative;
+    }
+} */
